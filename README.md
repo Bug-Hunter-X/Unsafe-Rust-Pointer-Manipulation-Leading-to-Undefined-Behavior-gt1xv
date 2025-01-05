@@ -1,0 +1,1 @@
+This repository showcases a common error in Rust when using raw pointers: data corruption from unsafe memory manipulation. The `bug.rs` file shows how directly modifying a vector's raw pointer can lead to unexpected results. The solution in `bugSolution.rs` demonstrates safer alternatives.
